@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Trip Bingo</title>
+    <link rel="icon" href="images/WEBSITEICON.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/LOGO.png" alt="Road Trip Bingo Logo" class="logo">
+        </header>
+        
+        <div class="rules">
+            <h2>Road Trip Bingo</h2>
+            <p>Objective: Complete a bingo card by spotting various road trip-related items during your journey.</p>
+            <ul>
+                <li>Before starting, click "Start" to generate a randomized bingo card.</li>
+                <li>Spot the items listed on your card during the trip and check them off.</li>
+                <li>The first player to complete a line (horizontal, vertical, or diagonal) wins!</li>
+            </ul>
+        </div>
+
+        <button id="startButton">Start</button>
+
+        <div id="bingoCard" class="bingo-card hidden">
+            <!-- Bingo card will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #434343);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.rules {
+    margin: 20px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* Bingo card styles */
+.bingo-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    margin-top: 20px;
+}
+
+.bingo-item {
+    background-color: #333;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bingo-item.checked {
+    background-color: #28a745;
+}
+
+.bingo-item:hover {
+    background-color: #444;
+}
