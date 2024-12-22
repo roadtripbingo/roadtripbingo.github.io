@@ -42,9 +42,10 @@ button:hover {
 }
 
 .logo {
-    width: 200px;
+    width: 50%;  /* This will make the logo half the width of the screen */
     margin-top: 20px;
 }
+
 
 /* Bingo card styles */
 .bingo-card {
